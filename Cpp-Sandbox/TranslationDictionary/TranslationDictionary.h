@@ -4,8 +4,6 @@
 #include <stdlib.h>
 using namespace std;
 
-// a struct rather than a class will do for this
-// has not methods
 struct Transpair {
   string french;
   string english;

@@ -1,0 +1,28 @@
+0:s --> np,vp
+1:s --> sadv,s
+2:np --> [john]
+3:np --> det,n
+4:np --> n
+5:vp --> iv
+6:iv --> [walks]
+7:sadv --> [maybe]
+8:det --> [the]
+9:n --> [man]
+10:n --> [men]
+initial is s
+enter the string to be checked input is maybe john walks
+WORDS: maybe john walks  STACK: s 
+vpnpWORDS: maybe john walks  STACK: np vp 
+ndetWORDS: maybe john walks  STACK: det n vp 
+BACKTRACKING to use of rule: np --> det,n
+1 WORDS: maybe john walks STACK: np vp 
+nWORDS: maybe john walks  STACK: n vp 
+BACKTRACKING to use of rule: s --> np,vp
+0 WORDS: maybe john walks STACK: s 
+ssadvWORDS: maybe john walks  STACK: sadv s 
+WORDS: john walks  STACK: s 
+vpnpWORDS: john walks  STACK: np vp 
+WORDS: walks  STACK: vp 
+ivWORDS: walks  STACK: iv 
+WORDS:  STACK: 
+yep

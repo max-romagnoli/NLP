@@ -1,0 +1,15 @@
+% this is a file of tests
+
+the flight
+the morning
+a flight
+a morning
+
+% the above were all 'positive' tests
+% below are some 'negative' tests
+
+*flight
+*flight flight
+*a a flight
+
+% there is no need for things to be arranged in two separate blocks

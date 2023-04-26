@@ -1,0 +1,20 @@
+0:s --> np,vp
+1:np --> det,n
+2:det --> [the]
+3:n --> [man]
+4:n --> [dog]
+5:vp --> tv,np
+6:tv --> [hit]
+initial is s
+enter the string to be checked input is the man hit the dog
+WORDS: the man hit the dog  STACK: s 
+vpnpWORDS: the man hit the dog  STACK: np vp 
+ndetWORDS: the man hit the dog  STACK: det n vp 
+WORDS: man hit the dog  STACK: n vp 
+WORDS: hit the dog  STACK: vp 
+nptvWORDS: hit the dog  STACK: tv np 
+WORDS: the dog  STACK: np 
+ndetWORDS: the dog  STACK: det n 
+WORDS: dog  STACK: n 
+WORDS:  STACK: 
+yep

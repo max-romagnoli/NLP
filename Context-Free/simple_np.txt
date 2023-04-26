@@ -1,0 +1,7 @@
+%noun phrase rules
+np --> det,n
+n --> [flight]
+n --> [morning]
+det --> [a]
+det --> [the]
+initial(np)

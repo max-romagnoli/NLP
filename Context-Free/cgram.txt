@@ -1,0 +1,9 @@
+s --> np,vp
+np --> det,n
+det --> [the]
+n --> [man]
+n --> [dog]
+vp --> tv,np
+tv --> [hit]
+
+initial(s)
